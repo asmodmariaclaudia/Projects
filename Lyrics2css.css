@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+    background-color: rgb(27, 16, 118);
+}
+
+header {
+    font-size: 500%;
+    letter-spacing: 5px;
+    color: #AAA2F0;
+}
+
+pre {
+    letter-spacing: 5px;
+    color: #b8d4ff;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+h2 {
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: hsla(216, 100%, 86%, 0.984);
+}
