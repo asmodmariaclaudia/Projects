@@ -8,30 +8,20 @@
 </head>
 
 <body>
-    <form>
-        <div>
-            <h1>Task Manager</h1>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To Do's</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add Task...">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
         </div>
-    
-        <label for="task">Enter Task: </label>
-        <input type="text" id="task" name="task">
-    
-        <br><br>
-        
-        <br><br>
-    
-        <button type="add" value="add">Add</button>
-        <button type="delete" value="delete">Delete</button>
-        <br><br>
-
-        <input type="radio" id="Urgent" name="priority" value="HTML">
-        <label for="html">Urgent</label><br>
-        <input type="radio" id="css" name="priority" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="priority" value="JavaScript">
-        <label for="javascript">JavaScript</label>
-    
-        <label for="task">Task to do:</label>
-    </form>
+    </div>
+    <script src="taskManager.js"></script>
 </body>
 </html>

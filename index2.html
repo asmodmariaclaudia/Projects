@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Array</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" medina="screen" charset="utf-8">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To Do's</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add Task...">
+                <button onclick="addTask()">Add</button><br>
+                <select id="category">
+                    <option value="urgent">Urgent</option>
+                    <option value="optional">Optional</option>
+                </select>
+            </div>
+
+            <div class="task-container">
+                <div>
+                    <h3>Urgent Tasks</h3>
+                    <ul id="urgentTasks">
+
+                    </ul>
+                </div>
+        
+                <div>
+                    <h3>Optional Tasks</h3>
+                    <ul id="optionalTasks">
+
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="TaskMang.js"></script>
+</body>
+</html>
